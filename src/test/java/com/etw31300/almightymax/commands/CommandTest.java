@@ -14,9 +14,9 @@ import org.junit.jupiter.api.Assertions;
 @Log4j2
 public class CommandTest {
 
-    private long botUid = 345646168933531658L;
-    private long userUid = 282771692319932418L;
-    private long debugChannelUid = 394293538390671360L;
+    private long botUid;
+    private long userUid;
+    private long debugChannelUid;
 
     @Test
     public void isCommand_test() {
