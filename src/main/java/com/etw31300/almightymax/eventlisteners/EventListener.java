@@ -3,6 +3,7 @@ package com.etw31300.almightymax.eventlisteners;
 import discord4j.core.event.domain.Event;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.Bean;
 import reactor.core.publisher.Mono;
 
 public interface EventListener<T extends Event> {

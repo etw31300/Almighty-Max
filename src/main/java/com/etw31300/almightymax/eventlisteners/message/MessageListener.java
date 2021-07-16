@@ -37,7 +37,7 @@ public abstract class MessageListener {
                 }
             }
         }  catch(Exception error) {
-            log.error("Error processing message -> {}", error.getMessage());
+            log.error("Error processing message -> {}", error.getMessage(), error);
         }
         return Mono.just(eventMessage).then();
     }
