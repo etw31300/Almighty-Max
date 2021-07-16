@@ -8,9 +8,8 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 @Log4j2
 @SpringBootApplication
-@EnableConfigurationProperties(ApplicationConfiguration.class)
+@EnableConfigurationProperties({ApplicationConfiguration.class})
 public class Application {
-
     public static void main(String[] args) {
         try {
             //Start the application
