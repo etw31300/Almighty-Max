@@ -20,7 +20,6 @@ public class ApplicationConfiguration {
     @Value("${almightymax.token}")
     private String token;
 
-    @Bean("discordClient")
     public <T extends Event> GatewayDiscordClient gatewayDiscordClient(List<EventListener<T>> eventListeners) {
         GatewayDiscordClient client = null;
 

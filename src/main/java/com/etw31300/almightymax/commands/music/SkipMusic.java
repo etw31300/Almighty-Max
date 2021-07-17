@@ -2,7 +2,7 @@ package com.etw31300.almightymax.commands.music;
 
 import com.etw31300.almightymax.commands.BaseCommand;
 import com.etw31300.almightymax.commands.annotations.Command;
-import com.etw31300.almightymax.lavaplayer.manager.GuildPlayerManager;
+import com.etw31300.almightymax.lavaplayer.managers.GuildPlayerManager;
 import discord4j.core.object.VoiceState;
 import discord4j.core.object.entity.Member;
 import discord4j.core.object.entity.Message;

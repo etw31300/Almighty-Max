@@ -1,4 +1,4 @@
-package com.etw31300.almightymax.lavaplayer.manager;
+package com.etw31300.almightymax.lavaplayer.managers;
 
 import com.sedmelluq.discord.lavaplayer.player.AudioPlayerManager;
 import com.sedmelluq.discord.lavaplayer.player.DefaultAudioPlayerManager;
