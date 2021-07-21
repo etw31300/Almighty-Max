@@ -2,9 +2,14 @@ package com.etw31300.almightymax.commands.text;
 
 import com.etw31300.almightymax.commands.BaseCommand;
 import com.etw31300.almightymax.commands.annotations.Command;
+import com.etw31300.almightymax.helpers.embed.EmbeddedMaxMessage;
+import discord4j.core.object.Embed;
 import discord4j.core.object.entity.Message;
+import discord4j.core.spec.EmbedCreateSpec;
 import lombok.extern.log4j.Log4j2;
 import reactor.core.publisher.Mono;
+
+import java.util.function.Consumer;
 
 @Log4j2
 @Command(keyword = "bork", aliases = {"bark"})
