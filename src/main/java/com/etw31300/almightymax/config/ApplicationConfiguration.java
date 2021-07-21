@@ -38,7 +38,7 @@ public class ApplicationConfiguration {
                             .flatMap(listener::execute)
                             .onErrorResume(listener::handleError)
                             .subscribe();
-                }
+                };
             }
         }
         catch (Exception error) {

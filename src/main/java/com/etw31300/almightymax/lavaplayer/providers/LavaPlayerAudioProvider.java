@@ -1,4 +1,4 @@
-package com.etw31300.almightymax.lavaplayer.provider;
+package com.etw31300.almightymax.lavaplayer.providers;
 
 import com.sedmelluq.discord.lavaplayer.format.StandardAudioDataFormats;
 import com.sedmelluq.discord.lavaplayer.player.AudioPlayer;

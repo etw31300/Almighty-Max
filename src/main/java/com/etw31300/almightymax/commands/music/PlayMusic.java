@@ -2,7 +2,7 @@ package com.etw31300.almightymax.commands.music;
 
 import com.etw31300.almightymax.commands.BaseCommand;
 import com.etw31300.almightymax.commands.annotations.Command;
-import com.etw31300.almightymax.lavaplayer.manager.GuildPlayerManager;
+import com.etw31300.almightymax.lavaplayer.managers.GuildPlayerManager;
 import com.sedmelluq.discord.lavaplayer.player.AudioLoadResultHandler;
 import com.sedmelluq.discord.lavaplayer.tools.FriendlyException;
 import com.sedmelluq.discord.lavaplayer.track.AudioPlaylist;
@@ -15,12 +15,11 @@ import discord4j.core.object.entity.channel.VoiceChannel;
 import discord4j.voice.AudioProvider;
 import lombok.extern.log4j.Log4j2;
 import org.reactivestreams.Publisher;
-import org.springframework.beans.factory.annotation.Value;
 import reactor.core.publisher.Mono;
 
 import java.time.Duration;
 
-import static com.etw31300.almightymax.lavaplayer.manager.LavaPlayerManager.PLAYER_MANAGER;
+import static com.etw31300.almightymax.lavaplayer.managers.LavaPlayerManager.PLAYER_MANAGER;
 
 @Log4j2
 @Command(keyword = "play")

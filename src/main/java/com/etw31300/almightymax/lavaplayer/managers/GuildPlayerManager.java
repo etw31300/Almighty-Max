@@ -1,7 +1,7 @@
-package com.etw31300.almightymax.lavaplayer.manager;
+package com.etw31300.almightymax.lavaplayer.managers;
 
-import com.etw31300.almightymax.lavaplayer.provider.LavaPlayerAudioProvider;
-import com.etw31300.almightymax.lavaplayer.scheduler.TrackScheduler;
+import com.etw31300.almightymax.lavaplayer.providers.LavaPlayerAudioProvider;
+import com.etw31300.almightymax.lavaplayer.schedulers.TrackScheduler;
 import com.sedmelluq.discord.lavaplayer.player.AudioPlayer;
 import discord4j.common.util.Snowflake;
 import lombok.Data;;
@@ -9,7 +9,7 @@ import lombok.Data;;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import static com.etw31300.almightymax.lavaplayer.manager.LavaPlayerManager.PLAYER_MANAGER;
+import static com.etw31300.almightymax.lavaplayer.managers.LavaPlayerManager.PLAYER_MANAGER;
 
 @Data
 public class GuildPlayerManager {
